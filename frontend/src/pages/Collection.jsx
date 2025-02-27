@@ -107,31 +107,91 @@ const Collection = () => {
               <input
                 className="w-3"
                 type="checkbox"
-                value={"Men"}
+                value={"Home Decor"}
                 onChange={toggleCategory}
-                checked={category.includes("Men")}
+                checked={category.includes("Home Decor")}
               />
-              Men
+              Home Decor
             </label>
             <label className="flex gap-2 cursor-pointer">
               <input
                 className="w-3"
                 type="checkbox"
-                value={"Women"}
+                value={"Fashion Accessories"}
                 onChange={toggleCategory}
-                checked={category.includes("Women")}
+                checked={category.includes("Fashion Accessories")}
               />
-              Women
+              Fashion Accessories
             </label>
             <label className="flex gap-2 cursor-pointer">
               <input
                 className="w-3"
                 type="checkbox"
-                value={"Kids"}
+                value={"Personal Care"}
                 onChange={toggleCategory}
-                checked={category.includes("Kids")}
+                checked={category.includes("Personal Care")}
               />
-              Kids
+              Personal Care
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Textiles"}
+                onChange={toggleCategory}
+                checked={category.includes("Textiles")}
+              />
+              Textiles
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Kitchenware"}
+                onChange={toggleCategory}
+                checked={category.includes("Kitchenware")}
+              />
+              Kitchenware
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Stationery"}
+                onChange={toggleCategory}
+                checked={category.includes("Stationery")}
+              />
+              Stationery
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Pet Accessories"}
+                onChange={toggleCategory}
+                checked={category.includes("Pet Accessories")}
+              />
+              Pet Accessories
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Garden Decor"}
+                onChange={toggleCategory}
+                checked={category.includes("Garden Decor")}
+              />
+              Garden Decor
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Garden Furniture"}
+                onChange={toggleCategory}
+                checked={category.includes("Garden Furniture")}
+              />
+              Garden Furniture
             </label>
           </div>
         </div>
@@ -141,37 +201,127 @@ const Collection = () => {
             showFilter ? "" : "hidden"
           } sm:block`}
         >
-          <p className="mb-3 text-sm font-medium">TYPES</p>
+          <p className="mb-3 text-sm font-medium">Subcategories</p>
           <div className="flex flex-col gap-2 text-sm font-light text-gray-700">
             <label className="flex gap-2 cursor-pointer">
               <input
                 className="w-3"
                 type="checkbox"
-                value={"Topwear"}
+                value={"Woodwork"}
                 onChange={toggleSubCategory}
-                checked={subCategory.includes("Topwear")}
+                checked={subCategory.includes("Woodwork")}
               />
-              Topwear
+              Woodwork
             </label>
             <label className="flex gap-2 cursor-pointer">
               <input
                 className="w-3"
                 type="checkbox"
-                value={"Bottomwear"}
+                value={"Ceramics"}
                 onChange={toggleSubCategory}
-                checked={subCategory.includes("Bottomwear")}
+                checked={subCategory.includes("Ceramics")}
               />
-              Bottomwear
+              Ceramics
             </label>
             <label className="flex gap-2 cursor-pointer">
               <input
                 className="w-3"
                 type="checkbox"
-                value={"Winterwear"}
+                value={"Textiles"}
                 onChange={toggleSubCategory}
-                checked={subCategory.includes("Winterwear")}
+                checked={subCategory.includes("Textiles")}
               />
-              Winterwear
+              Textiles
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Candles"}
+                onChange={toggleSubCategory}
+                checked={subCategory.includes("Candles")}
+              />
+              Candles
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Wall Art"}
+                onChange={toggleSubCategory}
+                checked={subCategory.includes("Wall Art")}
+              />
+              Wall Art
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Mirrors"}
+                onChange={toggleSubCategory}
+                checked={subCategory.includes("Mirrors")}
+              />
+              Mirrors
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Organizers"}
+                onChange={toggleSubCategory}
+                checked={subCategory.includes("Organizers")}
+              />
+              Organizers
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Coasters"}
+                onChange={toggleSubCategory}
+                checked={subCategory.includes("Coasters")}
+              />
+              Coasters
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Glassware"}
+                onChange={toggleSubCategory}
+                checked={subCategory.includes("Glassware")}
+              />
+              Glassware
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Signs"}
+                onChange={toggleSubCategory}
+                checked={subCategory.includes("Signs")}
+              />
+              Signs
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Feeders"}
+                onChange={toggleSubCategory}
+                checked={subCategory.includes("Feeders")}
+              />
+              Feeders
+            </label>
+            <label className="flex gap-2 cursor-pointer">
+              <input
+                className="w-3"
+                type="checkbox"
+                value={"Flags"}
+                onChange={toggleSubCategory}
+                checked={subCategory.includes("Flags")}
+              />
+              Flags
             </label>
           </div>
         </div>
