@@ -65,7 +65,7 @@ const Product = () => {
           <p className='mt-5 text-3xl font-medium'>{currency}{productData.price}</p>
           <p className='mt-5 text-gray-500 md:w-4/5'>{productData.description}</p>
           <div className='flex flex-col gap-4 my-8'>
-            <p>Select Size</p>
+            <p>Select quantity</p>
             <div className='flex gap-2'>
               {productData.sizes.map((item, index) => (
                 <button 
@@ -99,8 +99,8 @@ const Product = () => {
           <p className='px-5 py-3 text-sm border'>Reviews (122)</p>
         </div>
         <div className='flex flex-col gap-4 px-6 py-6 text-sm text-gray-500 border'>
-          <p>Elevate your style with our meticulously crafted Trendify quality products. Designed with a perfect balance of elegance and practicality, these Trendify quality products made from premium materials that ensure both durability and comfort.</p>
-          <p>Whether you're dressing up for a special occasion or adding a touch of sophistication to your everyday look, the Trendify quality products offer unparalleled versatility. Its timeless design, coupled with a flawless fit, makes it a must-have addition to any wardrobe. Don’t miss out on the chance to own a piece that combines both form and function—experience the difference today.</p>
+          <p>Elevate your home with our meticulously crafted HandyMart artisanal goods. Designed with a perfect balance of uniqueness and functionality, these handcrafted items are made from premium materials that ensure both durability and character.</p>
+          <p>Whether you're looking to add a touch of personality to your living space or seeking a special gift for someone, the HandyMart artisanal goods offer unparalleled charm. Their one-of-a-kind design, coupled with exceptional craftsmanship, makes them a must-have addition to any home. Don’t miss out on the chance to own a piece that combines both form and function—experience the beauty of handmade artistry today.</p>
         </div>
       </div>
       {/* Display Related Products */}
