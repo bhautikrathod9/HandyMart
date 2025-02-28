@@ -166,9 +166,15 @@ const Add = ({ token }) => {
             required
           >
             <option value="">Select Category</option>
-            <option value="Men">Men</option>
-            <option value="Women">Women</option>
-            <option value="Kids">Kids</option>
+            <option value="Home Decor">Home Decor</option>
+            <option value="Fashion Accessories">Fashion Accessories</option>
+            <option value="Personal Care">Personal Care</option>
+            <option value="Textiles">Textiles</option>
+            <option value="Kitchenware">Kitchenware</option>
+            <option value="Stationery">Stationery</option>
+            <option value="Pet Accessories">Pet Accessories</option>
+            <option value="Garden Decor">Garden Decor</option>
+            <option value="Garden Furniture">Garden Furniture</option>
           </select>
         </div>
         <div>
@@ -180,9 +186,18 @@ const Add = ({ token }) => {
             required
           >
             <option value="">Select Sub Category</option>
-            <option value="Topwear">Topwear</option>
-            <option value="Bottomwear">Bottomwear</option>
-            <option value="Winterwear">Winterwear</option>
+            <option value="Woodwork">Woodwork</option>
+            <option value="Ceramics">Ceramics</option>
+            <option value="Textiles">Textiles</option>
+            <option value="Candles">Candles</option>
+            <option value="Wall Art">Wall Art</option>
+            <option value="Mirrors">Mirrors</option>
+            <option value="Organizers">Organizers</option>
+            <option value="Coasters">Coasters</option>
+            <option value="Glassware">Glassware</option>
+            <option value="Signs">Signs</option>
+            <option value="Feeders">Feeders</option>
+            <option value="Flags">Flags</option>
           </select>
         </div>
         <div>
@@ -198,9 +213,9 @@ const Add = ({ token }) => {
         </div>
       </div>
       <div>
-        <p className="mb-2 text-lg font-semibold">Product Sizes</p>
+        <p className="mb-2 text-lg font-semibold">Product Quantity</p>
         <div className="flex gap-3">
-          {["S", "M", "L", "XL", "XXL"].map((size) => (
+          {["1", "2", "3"].map((size) => (
             <div
               key={size}
               onClick={() =>
